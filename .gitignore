@@ -1,0 +1,28 @@
+target/
+tomcat/
+!.mvn/wrapper/maven-wrapper.jar
+.versionsBackup
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.versionsBackup
