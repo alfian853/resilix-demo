@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class ExceptionController {
 
 
-  @ExceptionHandler({Exception.class})
-  public ResponseEntity<String> handleError(Exception e){
+  @ExceptionHandler({Throwable.class})
+  public ResponseEntity<String> handleError(Throwable e){
     return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR.value())
         .body(e.getMessage());
   }
