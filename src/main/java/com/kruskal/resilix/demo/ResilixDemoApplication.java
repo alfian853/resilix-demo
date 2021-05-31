@@ -1,6 +1,6 @@
 package com.kruskal.resilix.demo;
 
-import com.kruskal.resilix.springboot.v1.EnableResilix;
+import com.kruskal.resilix.springboot.v2.EnableResilix;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
