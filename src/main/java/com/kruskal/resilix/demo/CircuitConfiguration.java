@@ -1,6 +1,6 @@
 package com.kruskal.resilix.demo;
 
-import com.kruskal.resilix.springboot.v1.ResilixProperties;
+import com.kruskal.resilix.springboot.v2.ResilixProperties;
 import io.github.resilience4j.circuitbreaker.CircuitBreakerConfig;
 import io.github.resilience4j.circuitbreaker.CircuitBreakerRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
